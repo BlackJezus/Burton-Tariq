@@ -1,0 +1,12 @@
+* {
+    box-sizing:border-box;
+}
+
+div#wrapper {
+    margin:auto;
+    width:1000px;
+}
+
+body {
+    background-color:rgb(251,235,235);
+}
