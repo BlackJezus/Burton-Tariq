@@ -2,7 +2,7 @@
     box-sizing:border-box;
 }
 
-div#wrapper {
+div#wrapper, footer {
     margin:auto;
     width:1000px;
     background-color:rgb(251,235,235);
@@ -11,6 +11,7 @@ div#wrapper {
 
 body {
     font-family:"Arial","sans-serif";
+    line-height: 24px;
 
 }
 
@@ -34,12 +35,35 @@ section.artikelen {
 
 }
 img.appel{
-    width:450px;
+    width:498px;
 }
 
-img.visuals {
-    width: 300px;
+img.visual {
+    width: 447px;
+    margin-bottom: 13px;
 }
 img.logo {
     width: 300px;
+}
+img.article {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 285px;
+}
+
+article {
+    display: inline-block;
+    width: 30%;
+    padding-right: 10px;
+    vertical-align: top;
+}
+article:last-child{
+    padding-right: 0px;
+}
+footer{
+    background-color: rgb(166,166,166);
+    color: white;
+}
+footer a{
+    color: white;
 }
