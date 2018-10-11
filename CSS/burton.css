@@ -23,20 +23,23 @@ nav a {
     margin-right: 20px;
 }
 section.appel, section.visuals {
-    width: 50%;
-    float: left;
+    width:50%;
+    float:left;
 }
-section.appel{
-    width: 50%;
 
-}
 section.visuals {
-
+    text-align:right ;
 }
-
 section.artikelen {
 
 }
-img.logo{
+img.appel{
+    width:450px;
+}
+
+img.visuals {
+    width: 300px;
+}
+img.logo {
     width: 300px;
 }
